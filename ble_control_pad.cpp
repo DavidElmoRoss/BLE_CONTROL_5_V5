@@ -21,13 +21,13 @@ int main()
                 {
                     switch(bnum)
                     {
-                        case '5':   rgbLCD.setRGB(0xff, 0x00, 0x00);
+                        case '5':   rgbLCD.setRGB(0x00, 0xff, 0x00);
                                     break;
-                        case '6':   rgbLCD.setRGB(0xff, 0xff, 0xff);
+                        case '6':   rgbLCD.setRGB(0x00, 0x00, 0xff);
                                     break;
-                        case '7':   rgbLCD.setRGB(0x00, 0xff, 0x00);
+                        case '7':   rgbLCD.setRGB(0xff, 0xff, 0xff);
                                     break;
-                        default:   rgbLCD.setRGB(0x00, 0x00, 0xff);
+                        default:   rgbLCD.setRGB(0xff, 0x00, 0x00);
                                     
                                     break;
                         
